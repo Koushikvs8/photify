@@ -1,0 +1,245 @@
+body,html
+{
+  margin: 0%;
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+  font-family:  'Montserrat', sans-serif;;
+  font-size: 15px;
+color: aliceblue;
+}
+
+.side-bar
+{
+  background-color: #222;
+  width: 120px;
+  border: 2px solid black;
+height: 743.2px;
+  display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+position: fixed;
+z-index: 1px;
+/* justify-content: space-between; */
+font-size:12px; 
+
+
+}
+.first-block
+{
+  width: 120px;
+  background-color: rgb(0, 0, 0);
+  
+  
+
+}
+.first-block:hover,.header-container .banner-photo
+{
+background-color: aqua;
+}
+.first-block .koushik-pic
+{
+width: 100%;
+height: 100%;
+}
+
+.second-block 
+{
+margin-top: 3px;
+display: flex;
+flex-direction: column;
+align-items:center;
+
+}
+.Home-icon
+{
+  width: 36px;
+}
+#main
+{
+  margin-left: 144px;
+  margin-right: 24px;
+  margin-top: 12px;
+  padding: 24px 12px;
+ 
+}
+.main-container
+{
+  background-color: rgb(182, 255, 10);
+  display:block;
+  width: 1340px;
+  padding: 24px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+.header-container 
+{
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  width: 992px;
+  padding: 12px 12px;
+  
+
+}
+.header-container h1
+{
+  font-size: 64px;
+  
+}
+.header-container .banner-photo
+{
+  width: 70%;
+  margin-bottom: 0%;
+  height: 80%;
+  background-color: rgb(0, 0, 0)
+}
+.About-container
+{
+  width: 992px;
+  
+}
+.rating
+{
+  background-color: antiquewhite;
+  height: 25px;
+}
+.colabration
+{
+  margin-top: 30px;
+  margin-bottom: 16px;
+  color: black;
+  background-color: rgb(211, 129, 23);
+}
+.item
+{
+  background-color: antiquewhite;
+  display: inline-block;
+  height: 60px;
+  width: 190px;
+  text-align: center;
+ margin-top: 16px;
+ padding-top: 12px;
+ margin-left: 50px;
+ margin-bottom: 16px;
+}
+.colabration span
+{
+  font-size: 24px;
+}
+.Download-Button
+{
+
+  background-color:#f1f1f1 ;
+  margin-top: 16px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  padding: 12px 24px;
+  font-size: 17px;
+  line-height: 22px;  
+  border: none;
+}
+.Download-Button:hover 
+{
+  background-color:#ccc ;
+}
+.myprice-container
+{
+ 
+  background-color:rgb(212, 18, 18) ;
+  /* width: 1000px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+
+
+
+  
+  
+}
+.basic-container 
+{
+ background-color: rgb(0, 0, 0);
+ width:100%;
+ 
+
+ 
+ 
+}
+.basic-container ,button, .pro-container ,button
+{
+padding: 12px 24px;
+font-size: 15px;
+
+border: none;
+
+}
+.basic-container ul
+{
+  list-style-type: none;
+margin-left: -40px;
+/* margin-right: 50px; */
+  text-align: center;
+  
+
+}
+.basic-container ul li,.pro-container ul li
+{
+  border-bottom:1px solid #3a3a3a;
+}
+.pro-container
+{
+  background-color: rgb(57, 182, 26);
+  width:100%;
+
+ 
+ 
+}
+.pro-container ul{
+  list-style-type: none;
+  margin-left: -40px;
+  text-align: center;
+}
+.basic-container ,button:hover, .pro-container ,button:hover
+{
+background-color: black;
+color: antiquewhite;
+
+}
+@media (max-width:768px)
+{
+  .main-container
+  {
+    width: 500px;
+  }
+  .header-container .banner-photo
+{
+  width: 40%;
+  margin-bottom: 0%;
+  height: 60%;
+  
+}
+.header-container h1
+{
+  font-size: 50px;
+  
+}
+.About-container
+{
+  width: 300px;
+  margin-left: 128px;
+}
+.myprice-container
+{
+ 
+  background-color:rgb(212, 18, 18) ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+}
+
+}
